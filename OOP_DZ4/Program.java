@@ -35,7 +35,7 @@ public class Program {
         System.out.println(hooves);
         System.out.println(tails);
 
-        Battle<Axe, Hoplon, CrossBow, Paveza> battle1 = new Battle<>(hooves.getWarrior(1), horns.getWarrior(2));
+        Battle<Bow, Paveza, Sword, Hoplon> battle1 = new Battle<>(hooves.getWarrior(1), horns.getWarrior(2));
         battle1.fight();
 
 
